@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Sample Post</title>
+    <title>Angular - Assignment6</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="tutorials.html">Tutorials</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -87,40 +87,64 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+                    <h2 class="section-heading">Step 1</h2>
+                    <p>Hello and thank you for visiting my Angular page.  We will assume you have a basic understanding of HTML, Bootstrap, and Javascript as to not waste time. The very first thing to consider when begining coding with Angular to consider is folder structure.  You will want to find the files listed in the directories below by getting the bootstrap and angular files and then structuring your folders as pictured below.</p>
 
-                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+                    <a href="#">
+                        <img class="img-responsive" src="img/step1.jpg" alt="">
+                    </a>
+                    
+                    <h2 class="section-heading">Step2</h2>
+                    
+                    <p>Next you will want to create an app.js file that will house your Angular application.  Then create the controller for the application and then provide the appropiate references to it in your index.html file as pictured below with the statements ng-app and ng-controller (Note: ng indicates it is angular specific inside the tags.</p>
 
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+                    <a href="#">
+                        <img class="img-responsive" src="img/step2.jpg" alt="">
+                        </br>
+                        <img class="img-responsive" src="img/step2b.jpg" alt="">
+                        </br>
+                        <img class="img-responsive" src="img/step2c.jpg" alt="">
+                        </br>
+                    </a>
 
-                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+                    <h2 class="section-heading">Step3</h2>
+                    
+                    <p>Next you will want to create sometime of objects with properties you would like to use to reference in your application written in Javascript Object Notation (JSON) as pictured below in a varbiable. (Note: Properties are indicated by white followed a colon {Property = Property: } and values for the property by double quotes {Value = "Some value"}.</p>
 
-                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+                    <a href="#">
+                        <img class="img-responsive" src="img/step3.jpg" alt="">
+                    </a>
 
-                    <h2 class="section-heading">The Final Frontier</h2>
+                    <h2 class="section-heading">Step4</h2>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <p>Next is to pass in the properties you would like to reference by using the ng-repeat statement and cycling over them very similarly to a loop pictured below.  For sake of time we included these in div thumbnail tags in bootstrap.
+                    When we use the ng-repeat command it iterates through the angular controller referencing the Json array object stored in the variable.  Additionally, notice that the angular object and its associated properties is denoted in "handlebars" ({{object.property}}).  This allows for a repeating thumbnail with the associated properties to be repeated instead of writing this code for every object in the array.  Cool huh?
+                    </p>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <a href="#">
+                        <img class="img-responsive" src="img/step4.jpg" alt="">
+                        </br>
+                        <img class="img-responsive" src="img/step4b.jpg" alt="">
+                        </br>
+                        <img class="img-responsive" src="img/step4c.jpg" alt="">
+                        </br>
+                    </a>
+                    
 
-                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+                    <h2 class="section-heading">Wrapping it up</h2>
 
-                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+                    <p>What this code does is list a list of the JSOn objects in thumbails that can be clicked to take the user to different Angular tutorials accros the internet. You can see the example page by clicking on Tutorials at the top of the page.You can find a copy of the source code by clicking on the GitHub link at the bottom of the page.  Thanks for visting my site.  If you would like to contact me click the contact page at the top of the page.  Happy coding!!</p>
 
-                    <h2 class="section-heading">Reaching for the Stars</h2>
-
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+                    
 
                     <a href="#">
                         <img class="img-responsive" src="img/post-sample-image.jpg" alt="">
                     </a>
                     <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+                    
 
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-                    <p>Documentation for <a href="https://angularjs.org/">AngularJS</a>. Get Started  <a href="http://www.w3schools.com/angular/">with Angular</a>.</p>
+                    <p>Source code: <a href="https://github.com/Woodman502">AngularJS</a>. Get Started  <a href="http://www.w3schools.com/angular/">with Angular</a>.</p>
                 </div>
             </div>
         </div>
